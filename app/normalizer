@@ -1,0 +1,6 @@
+#!/bin/bash
+clear
+
+echo "----Running normalizer script----"
+
+java -jar normalizer-1.0-SNAPSHOT-jar-with-dependencies.jar "$@"
