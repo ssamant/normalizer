@@ -35,7 +35,7 @@ class Normalizer {
 
     Normalizer() {}
 
-    public void createNormalizeEntries(final String filePath) {
+    public void createNormalizedEntries(final String filePath) {
         final List<NormalizedEntry> normalizedEntries = new ArrayList<>();
 
         File file = new File(filePath);

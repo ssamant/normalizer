@@ -7,11 +7,9 @@ public class Main {
             throw new IllegalArgumentException("One filepath argument required");
         }
 
-
         final Normalizer normalizer = new Normalizer();
-        normalizer.createNormalizeEntries(args[0]);
+        normalizer.createNormalizedEntries(args[0]);
 
         System.out.println("normalized_entries.csv");
     }
-
 }

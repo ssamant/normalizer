@@ -20,6 +20,6 @@ To run the program:
  `mvn install`
 * These steps should create a jar with the required dependencies (`normalizer-1.0-SNAPSHOT-jar-with-dependencies.jar`) in a `target` directory.
 * Copy the jar to the `app` directory; from that directory you can run:
-`./normalizer <filename>`.  
+`./normalizer <filename>`.  *Note: I have included the jar in `app` for demonstration purposes*
 * You may need to give permissions to the normalizer script:
 `chmod 755 normalizer`
